@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  margin: 0;
+  background-image: url(/images/background2.jpg);
+  background-size: cover; /* 또는 contain */
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Noto Sans KR", "Noto Sans", sans-serif;
+  opacity: 1;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: white;
+  min-height: 90vh;
+  margin-top: 50px;
+  width: 700px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  opacity: 0.9;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.mainText {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputArea {
+  padding-bottom: 20px;
+  display: flex;
+  justify-content:space-between;
+  position: relative;
+}
+
+#addBtn {
+  position: absolute;
+  left: 200px;
+}
+
+.todayFeel {
+  position: absolute;
+  left: 475px;
+}
+
+.teskArea {
+  border: 1px solid lightblue;
+}
+
+.taskTap {
+  display: flex;
+  border-bottom: 1px solid lightblue;
+  position: relative;
+}
+
+.taskTap div {
+  padding: 1em;
+}
+
+#underLine {
+  height: 4px;
+  width: 60px;
+  top: 52px;
+  left: 0px;
+  background-color: pink;
+  position: absolute;
+  padding: 0px
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  border: 0.5px solid lightblue;
+}
