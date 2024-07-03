@@ -72,6 +72,77 @@ body {
 .task {
   display: flex;
   justify-content: space-between;
-  padding: 1em;
-  border: 0.5px solid lightblue;
+  width: 100%;
+  border-bottom: 1px solid lightgray;
+  position: relative;
+  
+}
+
+
+
+.taskBack {
+
+  padding: 20px;
+  transition: 1s;
+}
+
+.btnBox {
+display: flex;
+}
+
+.btnBox button {
+  height: 100%;
+  border: none;
+  width: 5em;
+  margin: 0;
+  background-color: white;
+  transition: 1s;
+  padding: 20px;
+  cursor: pointer;
+}
+
+
+.bgChange {
+  background-color: lightgray;
+}
+
+/* 이모티콘 기본 색상 */
+.rotateBtn {
+  color: gray;
+}
+
+.checkBtn {
+  color: green;
+}
+
+.trashBtn {
+  color: red;
+}
+
+/* 버튼 호버 시 이모티콘 색상 변경 */
+.btnBox button:hover .rotateBtn {
+  color: white;
+}
+
+.btnBox button:hover .checkBtn {
+  color:white;
+}
+
+.btnBox button:hover .trashBtn {
+  color: white;
+}
+
+button.checkBox:hover {
+  background-color:green;
+  color:white;
+}
+
+button.rotateBox:hover {
+  background-color:gray;
+  color:white;
+}
+
+button.trashBox:hover {
+  background-color:red;
+  color:white;
 }
