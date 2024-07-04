@@ -49,24 +49,24 @@ body {
   border: 1px solid lightblue;
 }
 
-.taskTap {
+.taskTab {
   display: flex;
   border-bottom: 1px solid lightblue;
   position: relative;
 }
 
-.taskTap div {
+.taskTab div {
   padding: 1em;
 }
 
 #underLine {
-  height: 4px;
-  width: 60px;
+  height: 5px;
+  width: 0px;
   top: 52px;
-  left: 0px;
   background-color: pink;
   position: absolute;
-  padding: 0px
+  padding: 0px;
+  transition: 0.5s;
 }
 
 .task {
@@ -77,6 +77,18 @@ body {
   position: relative;
   
 }
+
+
+
+
+.taskTab div{
+  cursor: pointer;
+}
+
+
+
+
+
 
 
 
